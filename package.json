@@ -2,6 +2,7 @@
 	"name": "theme-akagi",
 	"version": "0.1.0",
 	"publisher": "gmshiba",
+	"license": "MIT",
 	"engines": { "vscode": "^1.13.0" },
 	"displayName": "Akagi Theme",
 	"description": "Akagi themes for VS Code.",
