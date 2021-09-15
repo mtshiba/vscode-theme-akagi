@@ -104,6 +104,46 @@
 			}
 		},
 		{
+			"name": "Namespace",
+			"scope": "entity.name.namespace",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#e4d1ab"
+			}
+		},
+		{
+			"name": "Meta Attribute (Rust)",
+			"scope": "meta.attribute",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#bab09e"
+			}
+		},
+		{
+			"name": "Trait",
+			"scope": "entity.name.type.trait",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#c9aa8c"
+			}
+		},
+		{
+			"name": "Lifetime",
+			"scope": "entity.name.type.lifetime",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#d37b5b",
+			}
+		},
+		{
+			"name": "Macro",
+			"scope": "entity.name.function.macro",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#767676",
+			}
+		},
+		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
@@ -129,7 +169,7 @@
 		},
 		{
 			"name": "User names",
-			"scope": "constant.character, constant.other,entity.name.function, entity.name.class, entity.other.inherited-class, entity.other.attribute-name, entity.name, entity.other.attribute-name, entity.other.attribute-name.html, support.type.property-name, entity.name.tag.table, meta.structure.dictionary.json string.quoted.double.json",
+			"scope": "constant.character, constant.other, entity.name.function, entity.name.class, entity.other.inherited-class, entity.other.attribute-name, entity.name, entity.other.attribute-name, entity.other.attribute-name.html, support.type.property-name, entity.name.tag.table, meta.structure.dictionary.json string.quoted.double.json",
 			"settings": {
 				"foreground": "#798283"
 			}
@@ -196,14 +236,6 @@
 			}
 		},
 		{
-			"name": "Tag name",
-			"scope": "entity.name.tag",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#C7444A"
-			}
-		},
-		{
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
@@ -231,14 +263,14 @@
 			"scope": "invalid",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#FF0B00"
+				"foreground": "#f00c00c1"
 			}
 		},
 		{
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#FF0F00"
+				"foreground": "#dd4d43cb"
 			}
 		},
 		{
@@ -274,14 +306,6 @@
 			"scope": "punctuation.definition.heading.md, entity.name.type.md, beginning.punctuation",
 			"settings": {
 				"foreground": "#798283"
-			}
-		},
-		{
-			"name": "Markdown titles",
-			"scope": "markup.heading, entity.name.section",
-			"settings": {
-				"foreground": "#C7444A",
-				"fontStyle": " bold"
 			}
 		},
 		{
@@ -338,6 +362,30 @@
 			"settings": {
 				"foreground": "#798283",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Table",
+			"scope": "entity.other.attribute-name.table",
+			"settings": {
+				"foreground": "#97b5b8",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#798283",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Section",
+			"scope": "entity.name.section",
+			"settings": {
+				"foreground": "#798283",
+				"fontStyle": ""
 			}
 		}
 	]
