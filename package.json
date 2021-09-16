@@ -1,6 +1,6 @@
 {
 	"name": "theme-akagi",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"publisher": "gmshiba",
 	"license": "MIT",
 	"engines": { "vscode": "^1.13.0" },

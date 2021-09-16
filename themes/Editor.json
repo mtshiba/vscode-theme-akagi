@@ -7,7 +7,7 @@
 		"editor.foreground": "#eee0c5",
 		"editor.inactiveSelectionBackground": "#3A3D41",
 
-		"editor.selectionBackground": "#ea603e44",
+		"editor.selectionBackground": "#ed654344",
 		"editor.selectionHighlightBackground": "#add6ff19",
 
 		"editor.wordHighlightBackground":"#EBA96C22",
@@ -20,7 +20,7 @@
 		"statusBar.noFolderBackground": "#222222",
 		"statusBar.debuggingBackground": "#222222",
 		"editorOverviewRuler.border": "#00000000",
-		"badge.background": "#ea603e",
+		"badge.background": "#e96341",
 		"list.inactiveSelectionBackground": "#393939",
 		"list.activeSelectionBackground": "#393939",
 		"list.focusBackground": "#393939"
