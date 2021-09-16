@@ -19,14 +19,6 @@
 			}
 		},
 		{
-			"name": "Keyword",
-			"scope": "keyword",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#944044"
-			}
-		},
-		{
 			"name": "Support",
 			"scope": "support",
 			"settings": {
@@ -58,9 +50,9 @@
 		},
 		{
 			"name": "String",
-			"scope": "string, meta.property-value.string, support.constant.property-value.string, meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.json string.quoted.double.json, meta.preprocessor",
+			"scope": "string, string.quoted.double, meta.property-value.string, support.constant.property-value.string, meta.structure.dictionary.value",
 			"settings": {
-				"foreground": "#5c9178"
+				"foreground": "#528875"
 			}
 		},
 		{
@@ -72,27 +64,11 @@
 			}
 		},
 		{
-			"name": "Built-in constant",
-			"scope": "constant.language",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#658080"
-			}
-		},
-		{
-			"name": "User-defined constant",
-			"scope": "constant.character, constant.other",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#3e5757",
-			}
-		},
-		{
 			"name": "Class name",
 			"scope": "entity.name.class, entity.name.type, entity.name.namespace, entity.name.scope-resolution",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#d4653c",
+				"foreground": "#e18b6d",
 			}
 		},
 		{
@@ -120,19 +96,11 @@
 			}
 		},
 		{
-			"name": "Trait",
-			"scope": "entity.name.type.trait",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#D4653C"
-			}
-		},
-		{
 			"name": "Lifetime",
 			"scope": "entity.name.type.lifetime",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#c97455",
+				"foreground": "#c99155",
 			}
 		},
 		{
@@ -152,8 +120,24 @@
 			}
 		},
 		{
+			"name": "Constant",
+			"scope": "constant.other, constant.charactor",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#3a6e6e",
+			}
+		},
+		{
+			"name": "Escape",
+			"scope": "constant.character.escape",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#b6c797",
+			}
+		},
+		{
 			"name": "User names",
-			"scope": "entity.name, support.type.property-name, entity.name.tag.table, meta.structure.dictionary, string.quoted.double",
+			"scope": "entity.name, support.type.property-name, entity.name.tag.table, meta.structure.dictionary",
 			"settings": {
 				"foreground": "#798283"
 			}
@@ -204,8 +188,7 @@
 				"keyword.control",
 				"keyword.operator.new.cpp",
 				"keyword.operator.delete.cpp",
-				"keyword.other.using",
-				"keyword.other.operator"
+				"keyword.other",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -358,7 +341,7 @@
 		},
 		{
 			"name": "Tag",
-			"scope": "entity.name.tag",
+			"scope": "entity.name.tag, keyword,key",
 			"settings": {
 				"foreground": "#798283",
 				"fontStyle": ""
