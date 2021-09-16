@@ -56,6 +56,14 @@
 			}
 		},
 		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8cc0b0",
+			}
+		},
+		{
 			"name": "String Embedded Source",
 			"scope": "string source",
 			"settings": {
