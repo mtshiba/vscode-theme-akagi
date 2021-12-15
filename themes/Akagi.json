@@ -76,7 +76,7 @@
 			"scope": "entity.name.class, entity.name.type, entity.name.namespace, entity.name.scope-resolution",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#e18b6d",
+				"foreground": "#e6c6b4",
 			}
 		},
 		{
@@ -200,14 +200,14 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#C7444A"
+				"foreground": "#d6595f"
 			}
 		},
 		{
 			"name": "Storage",
 			"scope": "storage.type, storage.modifier, storage.type.ts, storage.type.var.ts, storage.type.js, storage.type.var.js, storage.type.const.ts, storage.type.let.ts, storage.type.let.js, storage.type.const.js, entity.name.tag",
 			"settings": {
-				"foreground": "#C7444A"
+				"foreground": "#d6595f"
 			}
 		},
 		{
@@ -222,7 +222,7 @@
 			"name": "this.self",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#8763a0"
+				"foreground": "#9474aa"
 			}
 		},
 		{
